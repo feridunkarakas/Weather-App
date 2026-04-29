@@ -1,0 +1,12 @@
+import { useState } from "react";
+import Weather from "./components/Weather";
+
+function App() {
+  return (
+    <div className="min-h-screen bg-sky-400">
+         <Weather />
+    </div>
+  );
+}
+
+export default App;
